@@ -101,8 +101,8 @@ async def start_command(client: Client, message: Message):
                 ]
             ]
         )
-        await update.reply_photo(
-            https://telegra.ph/file/5d6b706c15e7dc4e1a402.jpg",
+        await update.reply_photo((random.choice(["https://telegra.ph/file/2515472fcf65fd1fa8758.jpg",
+            "https://telegra.ph/file/a2567627ff1f91714390e.jpg")]]
             caption = START_MSG.format(
                 first = message.from_user.first_name,
                 last = message.from_user.last_name,
